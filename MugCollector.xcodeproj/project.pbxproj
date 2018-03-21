@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7207CD3AE0EDBBC0A4AFF814 /* Pods_MugCollector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB989C212ED92C0323FD9B98 /* Pods_MugCollector.framework */; };
+		C90B3FE21F44A0410089C79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90B3FE11F44A0410089C79A /* AppDelegate.swift */; };
+		C90B3FE71F44A0410089C79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90B3FE51F44A0410089C79A /* Main.storyboard */; };
+		C90B3FE91F44A0410089C79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90B3FE81F44A0410089C79A /* Assets.xcassets */; };
+		C90B3FF41F44A0A10089C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C90B3FF31F44A0A10089C79A /* GoogleService-Info.plist */; };
+		C985B0E02016625800D8035D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C985B0DF2016625800D8035D /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9662CC71FE2CFE900A804BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90B3FD61F44A0400089C79A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90B3FDD1F44A0410089C79A;
+			remoteInfo = MugCollector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FC98CF2A405E8FB11408C59 /* Pods-MugCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MugCollector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector.debug.xcconfig"; sourceTree = "<group>"; };
+		666258205188035D28CBCCB4 /* Pods-MugCollector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MugCollector.release.xcconfig"; path = "Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector.release.xcconfig"; sourceTree = "<group>"; };
+		C90B3FDE1F44A0410089C79A /* MugCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MugCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90B3FE11F44A0410089C79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C90B3FE61F44A0410089C79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C90B3FE81F44A0410089C79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90B3FED1F44A0410089C79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90B3FF31F44A0A10089C79A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9662CC21FE2CFE900A804BC /* MugCollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MugCollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C985B0DF2016625800D8035D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		C9D5C3F91F863A1D0018B706 /* MugCollector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MugCollector.entitlements; sourceTree = "<group>"; };
+		CB989C212ED92C0323FD9B98 /* Pods_MugCollector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MugCollector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90B3FDB1F44A0410089C79A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207CD3AE0EDBBC0A4AFF814 /* Pods_MugCollector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9662CBF1FE2CFE900A804BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1A55C399E0B87D13057F16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FC98CF2A405E8FB11408C59 /* Pods-MugCollector.debug.xcconfig */,
+				666258205188035D28CBCCB4 /* Pods-MugCollector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		921FFA392BC8FAD3957B0538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB989C212ED92C0323FD9B98 /* Pods_MugCollector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90B3FD51F44A0400089C79A = {
+			isa = PBXGroup;
+			children = (
+				C90B3FE01F44A0410089C79A /* MugCollector */,
+				C90B3FDF1F44A0410089C79A /* Products */,
+				2C1A55C399E0B87D13057F16 /* Pods */,
+				921FFA392BC8FAD3957B0538 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C90B3FDF1F44A0410089C79A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3FDE1F44A0410089C79A /* MugCollector.app */,
+				C9662CC21FE2CFE900A804BC /* MugCollectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90B3FE01F44A0410089C79A /* MugCollector */ = {
+			isa = PBXGroup;
+			children = (
+				C9D5C3F91F863A1D0018B706 /* MugCollector.entitlements */,
+				C90B3FE51F44A0410089C79A /* Main.storyboard */,
+				C90B3FE11F44A0410089C79A /* AppDelegate.swift */,
+				C97DE3161F50676E00D14BEB /* Supporting files */,
+			);
+			path = MugCollector;
+			sourceTree = "<group>";
+		};
+		C97DE3161F50676E00D14BEB /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C90B3FE81F44A0410089C79A /* Assets.xcassets */,
+				C90B3FED1F44A0410089C79A /* Info.plist */,
+				C90B3FF31F44A0A10089C79A /* GoogleService-Info.plist */,
+				C985B0DF2016625800D8035D /* .gitignore */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90B3FDD1F44A0410089C79A /* MugCollector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90B3FF01F44A0410089C79A /* Build configuration list for PBXNativeTarget "MugCollector" */;
+			buildPhases = (
+				7054C59C574A0470704CC7DA /* [CP] Check Pods Manifest.lock */,
+				C90B3FDA1F44A0410089C79A /* Sources */,
+				C90B3FDB1F44A0410089C79A /* Frameworks */,
+				C90B3FDC1F44A0410089C79A /* Resources */,
+				F32F17ED28EF2408CD23F8CB /* [CP] Embed Pods Frameworks */,
+				73DDBB4F03CEAA5E74E81008 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MugCollector;
+			productName = MugCollector;
+			productReference = C90B3FDE1F44A0410089C79A /* MugCollector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9662CC11FE2CFE900A804BC /* MugCollectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9662CCB1FE2CFE900A804BC /* Build configuration list for PBXNativeTarget "MugCollectorUITests" */;
+			buildPhases = (
+				C9662CBE1FE2CFE900A804BC /* Sources */,
+				C9662CBF1FE2CFE900A804BC /* Frameworks */,
+				C9662CC01FE2CFE900A804BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9662CC81FE2CFE900A804BC /* PBXTargetDependency */,
+			);
+			name = MugCollectorUITests;
+			productName = MugCollectorUITests;
+			productReference = C9662CC21FE2CFE900A804BC /* MugCollectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90B3FD61F44A0400089C79A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "SJ Dvs";
+				TargetAttributes = {
+					C90B3FDD1F44A0410089C79A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3RW48VJZGL;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C9662CC11FE2CFE900A804BC = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 3RW48VJZGL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C90B3FDD1F44A0410089C79A;
+					};
+				};
+			};
+			buildConfigurationList = C90B3FD91F44A0400089C79A /* Build configuration list for PBXProject "MugCollector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90B3FD51F44A0400089C79A;
+			productRefGroup = C90B3FDF1F44A0410089C79A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90B3FDD1F44A0410089C79A /* MugCollector */,
+				C9662CC11FE2CFE900A804BC /* MugCollectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90B3FDC1F44A0410089C79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C985B0E02016625800D8035D /* .gitignore in Resources */,
+				C90B3FF41F44A0A10089C79A /* GoogleService-Info.plist in Resources */,
+				C90B3FE91F44A0410089C79A /* Assets.xcassets in Resources */,
+				C90B3FE71F44A0410089C79A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9662CC01FE2CFE900A804BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7054C59C574A0470704CC7DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MugCollector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DDBB4F03CEAA5E74E81008 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32F17ED28EF2408CD23F8CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MugCollector/Pods-MugCollector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90B3FDA1F44A0410089C79A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90B3FE21F44A0410089C79A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9662CBE1FE2CFE900A804BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9662CC81FE2CFE900A804BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90B3FDD1F44A0410089C79A /* MugCollector */;
+			targetProxy = C9662CC71FE2CFE900A804BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90B3FE51F44A0410089C79A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90B3FE61F44A0410089C79A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90B3FEE1F44A0410089C79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90B3FEF1F44A0410089C79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90B3FF11F44A0410089C79A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC98CF2A405E8FB11408C59 /* Pods-MugCollector.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MugCollector/MugCollector.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW48VJZGL;
+				INFOPLIST_FILE = MugCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjdevs.practice.MugCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C90B3FF21F44A0410089C79A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666258205188035D28CBCCB4 /* Pods-MugCollector.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MugCollector/MugCollector.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW48VJZGL;
+				INFOPLIST_FILE = MugCollector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjdevs.practice.MugCollector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C9662CC91FE2CFE900A804BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW48VJZGL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MugCollectorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.MugCollectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MugCollector;
+			};
+			name = Debug;
+		};
+		C9662CCA1FE2CFE900A804BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RW48VJZGL;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MugCollectorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ff.MugCollectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MugCollector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90B3FD91F44A0400089C79A /* Build configuration list for PBXProject "MugCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90B3FEE1F44A0410089C79A /* Debug */,
+				C90B3FEF1F44A0410089C79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90B3FF01F44A0410089C79A /* Build configuration list for PBXNativeTarget "MugCollector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90B3FF11F44A0410089C79A /* Debug */,
+				C90B3FF21F44A0410089C79A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9662CCB1FE2CFE900A804BC /* Build configuration list for PBXNativeTarget "MugCollectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9662CC91FE2CFE900A804BC /* Debug */,
+				C9662CCA1FE2CFE900A804BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90B3FD61F44A0400089C79A /* Project object */;
+}
